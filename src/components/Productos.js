@@ -10,7 +10,6 @@ class Productos extends Component {
 				<ul className="lista-productos">
 					{Object.keys(this.props.productos).map(
 						producto =>(
-							
 							<Producto
 								key = {producto}
 								infoProducto = {this.props.productos[producto]}/>
